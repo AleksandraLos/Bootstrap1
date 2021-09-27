@@ -16,7 +16,7 @@ h1{
 .pop-products figcaption{
     margin-top: 8px;
 }
-
+/* 
 .navbar-nav li:hover>.dropdown-menu
 {
 	display: block;
@@ -25,13 +25,9 @@ h1{
 .navbar
 {
 	min-height: 57px;
-}
+} */
 
 .bg-jumpers
 {
 	background-color: #91a33b !important;
 }
-
-
-
-

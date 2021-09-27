@@ -17,37 +17,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="side-header">
-        <nav class="navbar bg-jumpers navbar-expand-md">
-            <a class="navbar-brand" href="#"><img src="/log-main.jpg" width="140" height="100" class="d-inline-block"
-                    alt=""></a>
-            <form class="form-inline">
-                <input class="form-control ml-auto" type="search" placeholder="Sök" aria-label="Sök">
-            </form>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Nyheter</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kategorier</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Topplista </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Rea </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Kampanjer </a>
-                </li>
-            </ul>
+    <header>
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-lg-start">
+              <img src="/log-main.jpg" width="120" height="100" alt="">
+              <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input type="search" class="form-control" placeholder="Sök" aria-label="Sök">
+              </form>
+              <ul class="nav col-1 col-md-12 text-decoration-none">
+                <li><a href="#" class="nav-link">Nyheter</a></li>
+                <li><a href="#" class="nav-link">Kategorier</a></li>
+                <li><a href="#" class="nav-link">Topplista</a></li>
+                <li><a href="#" class="nav-link">Rea</a></li>
+                <li><a href="#" class="nav-link">Kampanjer</a></li>
+              </ul>
             </div>
-        </nav>
+          </div>
+      
     </header>
 
     <main>
@@ -59,9 +51,9 @@
                     </div>
                     <div class="col-lg-6">
                         <h1 class="display-5 fw-bold lh-1 mb-3">Lorem ipsum dolor</h1>
-                        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                            world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
-                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloribus
+                            deleniti ut ipsam officia molestias reiciendis cupiditate harum debitis rerum dolorum
+                            aspernatur natus, adipisci tenetur.</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <button type="button" class="btn bg-jumpers btn-lg px-4 me-md-2">Lorem</button>
                         </div>
@@ -158,28 +150,49 @@
         </section>
     </main>
     <footer>
-<header class="icon-header">
-    <div class="container">
+        <header class="icon-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1 col-sm-3 col-md-3">
+                        <p><i class="fas fa-globe-americas"></i> Gratis frakt och return</p>
+                    </div>
+                    <div class="col-sm-1 col-sm-3 col-md-3">
+                        <p><i class="fas fa-plane"></i> Expressfrakt</p>
+                    </div>
+                    <div class="col-sm-1  col-sm-3 col-md-3">
+                        <p><i class="fas fa-user-shield"></i> Säkra betalningar</p>
+                    </div>
+                    <div class="col-sm-1 col-sm-3 col-md-3">
+                        <p><i class="far fa-newspaper"></i> Nyheter varje dag</p>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div class="row">
-            <div class="col">
-                <i class="fas fa-globe-americas"></i>
-                <p>Gratis frakt och return</p>
+            <div class="col-sm-12 col-md-2 l-10">
+                <h5>Shopping</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Vinterjackor</a></li>
+                    <li class="mb-2"><a href="#">Puferjackor</a></li>
+                    <li class="mb-2"><a href="#">Kappa</a></li>
+                    <li class="mb-2"><a href="#">Trenchcoats</a></li>
+                </ul>
             </div>
-            <div class="col">
-                <i class="fas fa-plane"></i>
-                <p>Expressfrakt</p>
+            <div class="col-sm-12 col-md-2">
+                <h5>Mina Sidor</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Mina Ordrar</a></li>
+                    <li class="mb-2"><a href="#">Mitt Konto</a></li>
+                </ul>
             </div>
-            <div class="col">
-                <i class="fas fa-user-shield"></i>
-                <p>Säkra betalningar</p>
-            </div>
-            <div class="col">
-                <i class="far fa-newspaper"></i>
-                <p>Nyheter varje dag</p>
+            <div class="col-sm-12 col-md-2 col-sm-1">
+                <h5>Kundtjänst</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Returnpolicy</a></li>
+                    <li class="mb-2"><a href="#">Integritetpolicy</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-</header>
     </footer>
 </body>
 
